@@ -1,0 +1,16 @@
+<!-- index.html -->
+{% extends "base.html" %}
+{% block title %}DJ二手手机卖场{% endblock %}
+{% block content %}
+<div class='container' align=center>
+	<!-- 这里放我们要呈现的内容 -->
+	<form name="my form" action="/" method="GET">
+        <label for="user_id">YOUR ID:</label>
+        <input id="user_id" type="text" name="user_id">
+        <label for="user_pass">YOUR PASSWORD:</label>
+        <input id="user_pass" type="password" name="user_pass">
+        <input type="submit" value="登录">
+        <input type="reset" value="清除重填">
+    </form>
+</div>
+{% endblock %}
